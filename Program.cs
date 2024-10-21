@@ -15,5 +15,10 @@ class Program
 
         fundament.SumTwoNumbers(5, 10);
 
+        Console.WriteLine("Type anything to subscribe to random facts");
+        string uselessKeyword = Console.ReadLine();
+        string fact = fundament.GetAInterestingFact(uselessKeyword);
+        Console.WriteLine("Intresting fact: " + fact);
+
     }
 }

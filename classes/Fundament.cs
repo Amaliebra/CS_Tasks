@@ -28,7 +28,6 @@ public class Fundament : IFundament
     public void SumTwoNumbers(int num1, int num2)
     {
         int sum = num1 + num2;
-        Console.WriteLine($"{num1} + {num2} = {sum}");
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)
