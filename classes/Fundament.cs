@@ -10,14 +10,14 @@ public class Fundament : IFundament
         throw new NotImplementedException();
     }
 
-    public void SumTwoNumbers()
+    public void SumTwoNumbers(int num1, int num2)
     {
         throw new NotImplementedException();
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)
     {
-        throw new NotImplementedException();
+        return a + b;
     }
 
 
