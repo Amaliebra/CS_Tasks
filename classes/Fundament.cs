@@ -26,9 +26,9 @@ public class Fundament : IFundament
     public void PrintFibonnaciSeries()
     {
         // TODO: Implement the Fibonacci sequence
-        int a = 0;
-        int b = 1;
-        int c;
+        // int a = 0;
+        // int b = 1;
+        // int c;
 
         /* 
         c = a + b

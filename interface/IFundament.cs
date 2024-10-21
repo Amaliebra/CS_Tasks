@@ -3,7 +3,11 @@ public interface IFundament
     /// <summary>
     /// Sums two numbers together, in void, we can specify if these numbers are integers, doubles or long
     /// </summary>
-    void SumTwoNumbers();
+    public void SumTwoNumbers(int number1, int number2)
+    {
+        int sum = number1 + number2;
+        Console.WriteLine($"Sum of {number1} and {number2} is: {sum}");
+    }
 
     /// <summary>
     /// sums together two numbers that it recieves as parameter arguments
