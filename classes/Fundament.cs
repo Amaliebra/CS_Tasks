@@ -2,17 +2,33 @@ public class Fundament : IFundament
 {
     public void CheckOddOrEven(double a)
     {
-        throw new NotImplementedException();
+        string result = Math.Round(a) % 2 == 0
+        ? "even"
+        : Math.Round(a) % 2 == 1 || Math.Round(a) % 2 == -1
+        ? "odd"
+        : "invalid";
     }
 
     public string GetAInterestingFact(string fact)
     {
-        throw new NotImplementedException();
+        string[] intrestingFacts = {
+            "You can hear a blue whale's heartbeat from over 3 kilometers away.",
+            "The world's smallest bird is the bee hummingbird, which is the size of a bumblebee.",
+            "Sharks existed before trees.",
+            "Cleopatra lived closer to the invention of the iPhone than to the building of the pyramids.",
+            "In 1992, a cargo ship lost 28,000 rubber ducks in the ocean, and they're still being found today.",
+            "The average person takes about 23,000 breaths per day."
+        };
+
+        Random random = new Random();
+        int randomIndex = random.Next(intrestingFacts.Length);
+        return intrestingFacts[randomIndex];
     }
 
     public void SumTwoNumbers(int num1, int num2)
     {
-        throw new NotImplementedException();
+        int sum = num1 + num2;
+        Console.WriteLine($"{num1} + {num2} = {sum}");
     }
 
     public double SumTwoNumbersOfGivenType(double a, double b)

@@ -11,5 +11,9 @@ class Program
         // Japanese greeting
         greetings.YoiTsuitachi();
 
+        Fundament fundament = new Fundament();
+
+        fundament.SumTwoNumbers(5, 10);
+
     }
 }

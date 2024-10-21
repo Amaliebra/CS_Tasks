@@ -18,6 +18,7 @@ public interface IFundament
     /// </summary>
     void CheckOddOrEven(double a);
 
+
     /// <summary>
     /// A method that returns a interesting fact, that the user of the program can define as a parameter argument
     /// </summary>
