@@ -2,11 +2,14 @@ public class Fundament : IFundament
 {
     public void CheckOddOrEven(double a)
     {
-        string result = Math.Round(a) % 2 == 0
-        ? "even"
-        : Math.Round(a) % 2 == 1 || Math.Round(a) % 2 == -1
-        ? "odd"
-        : "invalid";
+        if (Math.Round(a) % 2 == 0)
+        {
+            Console.WriteLine(a + " is Even");
+        }
+        else
+        {
+            Console.WriteLine(a + " is Odd");
+        }
     }
 
     public string GetAInterestingFact(string fact)
