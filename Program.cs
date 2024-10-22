@@ -15,6 +15,9 @@ class Program
 
         fundament.SumTwoNumbers(5, 10);
 
+        double result = fundament.SumTwoNumbersOfGivenType(19.4, 14.9);
+        Console.WriteLine("Result: " + result);
+
         Console.WriteLine("Type anything to subscribe to random facts");
         string uselessKeyword = Console.ReadLine();
         string fact = fundament.GetAInterestingFact(uselessKeyword);
